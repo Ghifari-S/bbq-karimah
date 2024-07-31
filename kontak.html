@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/kontak.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="sec-1">
+        <div class="atas">
+          <div class="mobile">
+            <div class="dropdown">
+              <button class="dropbtn"><i class="ri-menu-line"></i></button>
+              <div class="dropdown-content">
+              <a href="./index.html">Beranda</a>
+              <a href="./tentang.html">Tentang</a>
+              <a href="./keunggulan.html">Keunggulan</a>
+              <a href="./kontak.html">Kontak</a>
+              </div>
+            </div>
+          </div>
+          
+          <ul>
+            <div>
+              <li><a href="./index.html">Beranda</a></li>
+              <li><a href="./tentang.html">Tentang</a></li>
+              <li><a href="./keunggulan.html">Keunggulan</a></li>
+              <li><a href="./kontak.html">Kontak</a></li>
+            </div>
+          </ul>
+        </div>
+
+      </div>
+      <div class="sec-2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.3769283959205!2d110.7590803748015!3d-7.533804174359412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a147e46eda873%3A0xd2f585378cd3f5e3!2sPPQ%20AL-MAHIR!5e0!3m2!1sid!2sid!4v1721960780610!5m2!1sid!2sid"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="bungkus">
+        <div class="sec-3">
+            <h2>Info Kami</h2>
+            <div class="card">
+              <div class="logo">
+                <i class="ri-map-pin-2-line"></i>
+              </div>
+              <div class="teks">
+                <h4>Lokasi Kami</h4>
+                <p>
+                  PPQ AL Mahir, Jl. Adi Sumarmo 200, Krobyongan, Gawanan, Colomadu,
+                  Karanganyar
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="logo">
+                <i class="ri-mail-send-line"></i>
+              </div>
+              <div class="teks">
+                <h4>Email</h4>
+                <p>
+                  info@example.com <br />
+                  support@example.com
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="logo">
+                <i class="ri-phone-line"></i>
+              </div>
+              <div class="teks">
+                <h4>No.WhatssApp</h4>
+                <a href="" style="text-decoration: none; color: black;">+62 821-3327-7548</a>
+              </div>
+            </div>
+          </div>
+          <div class="sec-4">
+            <h2>Hubungi Kami</h2>
+            <div class="block">
+              <form action="">
+                <input type="text" placeholder="Nama">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="No.HP">
+                <textarea name="" id="" placeholder="Masukkan Pesan"></textarea>
+                <button>Kirim Pesan</button>
+              </form>
+            </div>
+          </div>
+      </div>
+      
+      <footer>
+        <div class="atas">
+            <h5>Ingin Belajar dan Mahir Dalam Membaca Al-Qur'an?</h5>
+            <button>
+                <div class="logo">
+                    <i class="ri-whatsapp-line"></i>
+                </div>
+                <h5>Hubungi Kami</h5>
+            </button>
+        </div>
+        <div class="bawah">
+                <div class="satu">
+                    <h4>BBQ Karimah</h4>
+                    <p>Bersama BBQ Karimah
+                        menjadi  mudah dan mahir
+                        dalam membaca Al Qur'an</p>
+                </div>
+                <div class="satu">
+                    <h4>Kantor BBQ Karimah</h4>
+                    <p>Jl. Adi Sumarmo No.200, 
+                        Krobyongan,Gawanan, Kec.
+                        Colomadu, Kabupaten 
+                        Karanganyar, Jawa Tengah 
+                        57175</p>
+                </div>
+                <div class="satu">
+                    <h4>Sosial Media</h4>
+                    <div class="logo">
+                        <div class="la">
+                            <i class="ri-whatsapp-line"></i>
+                        </div>
+                        <div class="la">
+                            <i class="ri-instagram-line"></i>
+                        </div>
+                        <div class="la">
+                            <i class="ri-facebook-circle-line"></i>
+                        </div>
+                        <div class="la">
+                            <i class="ri-linkedin-box-line"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+    <hr />
+    <div class="end">
+      <p>Copyright &copy; 2024. BBQ Karimah. All right reserved.</p>
+    </div>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("burgerMenu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      document.getElementById("linkHalamanBaru").onclick = function (event) {
+        event.preventDefault();
+        window.location.href = this.href;
+      };
+    </script>
+  </body>
+</html>
